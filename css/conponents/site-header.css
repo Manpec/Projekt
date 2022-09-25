@@ -1,0 +1,112 @@
+.site-header >nav:first-child ul{
+    display: flex;
+    flex-grow: 1;
+       gap: 10px;
+    list-style: none;
+    padding: 10px
+
+  }
+
+  .site-header li {
+    display: inline;
+     }
+
+  .navbar{
+    background-color: black;
+
+  }
+  .navbar ul{
+        justify-content: center;
+        justify-content: space-evenly;
+  }
+  .navbar > ul:first-child >li > a{
+    color: white;
+      }
+      
+
+.header-search {
+    display: flex;
+    align-items: center;
+    
+}
+.ikea-logo{
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+}
+
+
+.searchbar{
+    display: flex;
+    flex-grow: 1; 
+
+}
+.searchbar input {  
+    border-radius: 25px;
+    padding-right: 400px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: black;
+  }
+
+  .searchbar input {
+    border: none;
+  }
+  
+  .searchbar input:focus {
+    outline: none;
+  }
+
+  .searchbar form {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 8px;
+  }
+
+  .header-icons{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header-icons a{
+    color: black;
+  }
+
+.page-container{
+    display: flex;
+    }
+    .main-nav{
+        align-items: center;
+        width: 100%;
+        
+    }
+    .main-nav li{
+        margin-right: 10px;
+    }
+
+    .main-nav > li > a{
+        color: black;
+          }
+
+    .pickar{
+        display: flex;
+        justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    }
+
+    .pickar li{
+        margin:10px;
+
+    }
+
+    .pickar a{
+        color: black;
+          }
+
+
+
+
+    
+    

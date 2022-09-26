@@ -1,10 +1,14 @@
-@import "conponents/site-header.css";
-@import "conponents/hero.css";
-
+@import "components/site-header.css";
+@import "components/hero.css";
+@import "components/carousel.css";
 * {
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-family: Verdana, sans-serif;
+  }
 
 body *{
     border:1px solid black;
@@ -16,11 +20,13 @@ a:link {
 }
 
 
-
 body {
     height: 2000px;
+    
   }
 
   main {
     height: 100%;
   }
+
+  

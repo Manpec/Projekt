@@ -23,12 +23,16 @@
     color: white;
       }
       
-
+/* how to use position  */
 .header-search {
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;}
     
-}
+    
+
 .ikea-logo{
     flex-grow: 1;
     justify-content: center;

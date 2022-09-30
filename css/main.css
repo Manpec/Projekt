@@ -2,6 +2,8 @@
 @import "components/hero.css";
 @import "components/carousel.css";
 @import "components/banner.css";
+@import "components/footer-links.css";
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@ body *{
     border:1px solid black;
 }
 
-header, main, footer {
+header, main {
     margin: 0px 30px;
 }
 
@@ -26,10 +28,7 @@ a:link {
 }
 
 
-body {
-    height: 2000px;
-    
-  }
+
 
   main {
     height: 100%;

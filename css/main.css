@@ -3,7 +3,7 @@
 @import "components/carousel.css";
 @import "components/banner.css";
 @import "components/footer-links.css";
-
+@import "components/footer-icons.css";
 * {
     margin: 0;
     padding: 0;

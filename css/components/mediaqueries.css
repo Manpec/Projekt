@@ -1,0 +1,61 @@
+@media(max-width:1200px){
+    .header-icons span, .main-nav {
+      display: none;
+    }
+
+    .ikea-logo img{ 
+      width:75px;
+      height:30px;
+    } 
+    .page-container2{
+        display:flex;
+    }
+    .page-container{
+        display:none;
+    }
+   
+    .top-button{
+            display:none;
+        }
+
+
+
+}
+   
+@media(min-width:1200px){
+        .page-container2{
+            display:none;
+        }  
+        .page-container{
+            display:flex;
+        } 
+
+        
+    }
+
+@media(max-width:899px){
+
+
+    .hero .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        grid-template-rows: auto repeat(7,1fr);
+        gap: 15px;
+        grid-template-areas:
+        "img-1 img-1"
+        "img-2 img-3"
+        "img-2 img-3"
+        "img-2 img-3"
+        "img-4 img-3"
+        "img-4 img-5"
+        "img-4 img-5"
+        "img-4 img-5";
+        
+
+    }
+
+    
+
+
+}
+

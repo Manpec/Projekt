@@ -1,16 +1,12 @@
-.footer-utilities > div{
+.footer-utilities {
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0 0 30px;
   flex-direction: row;
 }
 
-.icon-bar {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-}
 
-.footer-utilities >div>div> ul {
+
+.footer-utilities >div> ul {
     display: flex;
     flex-direction: row;
     
@@ -37,12 +33,12 @@
 
 .footer-utilities  li {
     list-style: none;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     width: 50px;
 }
 
 .language{
-    margin:20px;
+    margin:10px 30px 20px 0;
     width: 200px;
     flex-grow: 1;
     }
@@ -56,7 +52,7 @@
     .language span{
         border: 1px solid #dfdfdf;
         border-radius: 20px;
-        padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+        padding: 5px 20px 7.5px 1.25rem;
         height: auto;
         font-size: .75rem;
     }

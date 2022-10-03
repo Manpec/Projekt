@@ -5,10 +5,16 @@
     align-items: center;
 }
 
+.hero-padding > div:first-child{
+    flex-basis: 800px;
+}
+
 
 .top-button a{
    border-radius: 30px;
    padding:10px;
+   color: black;
+border: solid black 1px;
 }
 
 

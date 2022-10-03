@@ -1,0 +1,57 @@
+.banner {
+    margin-top: 60px;
+}
+
+
+.banner > div {
+    display: flex; 
+}   
+
+.banner img {
+       
+    width: 100%;
+height: 700px;
+    
+   
+}    
+
+.banner-item {
+    max-width: 300px;
+}
+
+.banner-item  p{
+    margin: 5%;
+    font-size: .875rem;
+}
+.banner-item  h2{
+    margin: 5%;
+    font-size: 1.5rem;
+}
+
+
+
+
+.banner {
+    background-color: rgb(198, 188, 169);
+    
+
+  
+}   
+
+.banner a {
+    color: black;
+
+}
+
+.banner-button span{
+    border-radius: 30px;
+    padding:10px;
+    background-color: black;
+    color: white;
+
+}
+.banner-button 
+{
+    margin: 0 5%;
+}
+ 

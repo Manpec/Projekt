@@ -23,8 +23,12 @@ footer {
     margin: 50px 0px;
 }
 
-.featured-links > div > h3, p {
+.featured-links > div > h5, p {
     margin: 20px 0px;
+}
+
+.featured-links h5 {
+    font-size: 20px;
 }
 
 .footer-btn span{
@@ -62,7 +66,8 @@ footer .accordion a {
     margin: 10px 0px;
 }
 
-.accordion h4 {
+.accordion h6 {
     margin:20px 0px;
+    font-size: 18px;
 }
 

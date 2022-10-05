@@ -5,6 +5,7 @@
 @import "components/footer-links.css";
 @import "components/footer-icons.css";
 @import "components/mediaqueries.css";
+
 * {
     margin: 0;
     padding: 0;

@@ -132,11 +132,11 @@ form > i:nth-child(2){
           }
 
 
-/* page-container2 visas max-width:1200 */
+
  .page-container2{
   display: flex;
-  margin: 0 30px;
-  width: 100%;
+  padding: 0 30px;
+  width: 90%;
 
 
 }

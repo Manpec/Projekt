@@ -1,0 +1,139 @@
+.teaser .container{
+    display: flex;
+   
+}
+.teaser >span{
+    font-size: 1.5rem;
+    line-height: 1.45;
+    letter-spacing: -0.0042em;
+    font-weight: 700;
+}
+
+
+.container > div  {
+    display: flex;
+    
+margin: 0 20px;
+    flex-direction: column;
+   width:500px
+ /* make images same size */
+}
+
+.container > div> img {
+    width: 100%;
+    height: 100%;
+    padding-right: 12px;
+
+}
+
+
+.container > div > div > div img {
+    max-width: 47px;
+    max-height: 26px;
+    margin-top: 2px;
+    padding-left: 12px;
+}
+.container > div > div {
+    display: flex;
+    flex-direction: column;
+    
+}
+.container > div > div >span:first-child {
+    font-size: 14px;
+    font-weight: 700;
+    color:#111;
+    line-height: 1.5;
+    margin:0 0 4px;
+
+}
+
+.container > div > div >span:nth-child(2) {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #111;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 0 8px;
+}
+
+.container > div > div >span:nth-child(3)  {
+    font-size: .75rem;
+    line-height: 1.5;
+    color: #484848;
+    margin: 0 0 4px;
+
+}
+.container > div > div > div span  {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #484848;
+    margin:4px 0;
+
+}
+/* funkar inte "utgår inom kort" */
+.container  .last-chance{
+    color: #484848;
+    font-size: .875rem;
+    line-height: 1.571;
+    margin: 0 0 8px;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+
+}
+
+.container .rating{
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+.container .rating > span{
+    font-size: 12px;
+    margin-left:8px;  
+}
+.container .rating  i {
+    margin-right: 2px;
+    font-size: 12px;
+}
+
+
+.container > div > div > a  {
+    color: #484848;
+    font-size: 12px;
+    line-height: 1.571;
+    margin: 4px 0 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+
+
+.container > div > div > div {
+    display: inline-flex;
+    align-items: center;
+    font-size: .75rem;
+    line-height: 1.5;
+    color: #111;
+    font-weight: 700;
+    margin: 4px 0 ;
+    
+}
+.teaser-icons {
+    display: flex;
+    flex-grow: 1;
+   justify-content: space-between;
+}
+
+.teaser-icons .bi-heart{
+ margin: 0 8px 0 0; 
+ width: 40px;
+ font-size: 18px;
+}
+
+.container .bi-bag-plus-fill{
+font-size:44px;
+color: #035588;
+margin-inline-end: 0.5rem;
+width:40px;
+margin: 0 8px 0 0; 
+}

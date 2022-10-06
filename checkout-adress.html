@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css-product-details/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>Ange adress</title>
+  </head>
+  <body>
+    <header>
+      <div class="ikea-logo">
+        <a href="#"
+          ><img
+            src="img/Ikea_logo.svg.png"
+            alt="Ikea logo"
+            width="100"
+            height="50"
+        /></a>
+      </div>
+    </header>
+    <main class="layout-grid">
+      <section class="order">
+        <div>
+          <div>
+              <h1>Din varukorg</h1>
+              <a href="#">Ändra</a>
+          </div>
+          <div>
+            <img
+              src="https://www.ikea.com/se/sv/images/products/rollsbo-led-ljuskaella-e14-200-lumen-dimbar-kronljus-brun-klarglas__0990081_pe818740_s3.jpg"
+              alt=""/>
+            <button type="button" aria-label="show all products">
+                <i class="bi bi-arrow-right-circle"></i>
+            </button>
+          </div> 
+        </div> 
+        <div>
+          <span>Din beställning</span>         
+            <table>
+                <tbody>
+                    <tr>
+                      <td>Produktpris</td>
+                      <td>49:-</td>
+                    </tr>
+                    <tr>
+                      <td>Pris för upphämtning</td>
+                      <td>49:-</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Totalpris</td>
+                        <td>98:-</td>
+                    </tr>
+                    <tr>
+                        <td>Exklusive moms</td>
+                        <td>78,40:-</td>
+                    </tr>
+                    <tr>
+                        <td>Moms</td>
+                        <td>19,60:-</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="bi bi-arrow-clockwise"></i>
+              <span>365 dagar att ändra dig</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-lock"></i>
+              <span>Säker shoppning med SSL datakryptering</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <i class="bi bi-1-circle"></i>
+      <section class="first-step">
+        <div class="drive-through">
+          <div>
+            <h2>Hämta din beställning här</h2>
+            <a href="#">Ändra</a>
+          </div>
+          <div>
+            <span>Click & Collect drive-through</span>
+            <span>IKEA Malmö</span>
+            <span>Kulthusgatan 1 21586 Malmö</span>
+            <span>Tid för upphämtning</span>
+            <span>2022-10-06 09:00-10:00</span>
+            <p>
+              Ordern hämtas utanför valt varuhus inom bokat tidsintervall och
+              senast 24 timmar efter. Vänligen invänta avisering från IKEA innan
+              du åker till ditt varuhus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <i class="bi bi-2-circle-fill"></i>
+      <section class="second-step">
+            <h3>Adress</h3>
+            <div class="checkbox">
+                <input type="checkbox" name="checkboxname" id="business" value="profile-check">
+                <label for="business">Jag är företagskund</label>
+            </div>
+            <h4>Fakturaadress</h4>
+            <form>
+              <div> 
+                <label for="name">Förnamn *</label>
+                <input id="name" type="text" name="firstname" required/>
+              </div>
+              <div>
+                <label for="lastname">Efternamn *</label>
+                <input id="lastname" type="text" name="lastname" required/>
+              </div>
+              <div>
+                <label for="e-mail">E-postadress *</label>
+                <input id="e-mail" type="email" name="email" required/>
+              </div>
+              <fieldset>
+                <label for="country-code">Mobiltelefonnummer *</label>
+                <div>
+                    
+                    <select id="country-code" name="city" required>
+                      <option value="sweden">SE(+46)</option>
+                      <option value="finland">FI(+358)</option>
+                      <option value="norway">NO(+47)</option>
+                      <option value="denmark">DK(+45)</option>
+                      <option value="russia">RU</option>
+                    </select>
+                    <input type="tel" name="mobil-number" required/>
+                </div>
+              </fieldset>
+              <div>
+                  <label for="country">Land</label>
+                  <select id="country" name="country">
+                      <option value="sweden">Sverige</option>
+                      <option value="finland">Finland</option>
+                      <option value="norway">Norge</option>
+                      <option value="denmark">Danmark</option>
+                      <option value="russia">Ryssland</option>               
+                    </select>            
+                </div>
+                <div>
+                    <label for="street">Gatuadress *</label>
+                    <input id="street" type="text" name="street" required />
+                </div>
+                <div>
+                    <label for="address-line2">C/O (Valfritt)</label>
+                    <input id="address-line2" type="text" name="address-line2" />
+                </div>
+                <div>
+                    <label for="postalcode">Postnummer *</label>
+                    <input id="postalcode" type="text" name="postalcode" required />
+                </div>
+                <div>
+                    <label for="city">Ort *</label>
+                    <input id="city" type="text" name="city" required />
+                </div>        
+                <div>
+                    <h5>IKEA Family</h5>
+                    <a href="#">Skriv in ditt IKEA Family kortnummer</a>
+                </div>
+                <div>
+                    <p>Genom att klicka på Fortsätt har jag läst och förstått IKEA </p>
+                    <a href="#">Integritetspolicy</a>
+                </div>
+                <button  class="form-button" type="button" >Lägg i varukorg</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="policies">
+            <div class="copy-right">
+              <small>&copy; Inter IKEA</small>
+            </div>
+            <div class="legal-links">
+              <ul>
+                <li>
+                  <a href="#"><small>Integritetspolicy</small></a>
+                </li>
+                <li>
+                  <a href="#"><small> Cookiepolicy</small></a>
+                </li>
+                <li>
+                  <a href="#"><small>Ansvarfullt avslöjadepolicy</small></a>
+                </li>
+                <li>
+                  <a href="#"><small>Inställningar för Cookies</small></a>
+                </li>
+              </ul>
+            </div>
+          </div>  
+    </footer>
+  </body>
+</html>

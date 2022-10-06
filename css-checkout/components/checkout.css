@@ -1,0 +1,203 @@
+.layout-grid{
+    display:grid;
+    grid-template-columns: 50px 900px 50px auto ;
+    grid-template-rows: 300px 50px auto;
+    /* grid-template-columns:repeat(4,minmax(0,1fr)); */
+    /* grid-template-rows: repeat(3,minmax(0,1));    */
+    grid-gap: 1.25rem;
+   grid-template-areas: 
+     "bi-1-circle       drive-through . order"
+     ".                 .             . order"
+     "bi-2-circle-fill  second-step   .    .  ";
+}
+
+.bi-1-circle{
+    grid-area: bi-1-circle;
+}
+.drive-through{
+    grid-area: drive-through;
+}
+
+.order{
+    grid-area: order;
+}
+
+.bi-2-circle-fill{
+    grid-area: bi-2-circle-fill;
+}
+.second-step{
+    grid-area: second-step;
+}
+
+.order {
+    position: sticky;
+    z-index: 80;
+    top: 1.5rem;
+    border: none;
+    margin: 0px;
+}
+
+.order>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.order>div>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px ;
+}
+
+.order> div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+h1{ 
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.order>div>div>a {
+    text-decoration: underline;
+    font-weight: 400;
+    color: #484848;
+}
+
+.order img{
+    width: 64px;
+    height: 64px;
+}
+
+/* bigger icon */
+.order button{
+    width: 40px;
+    height: 40px;
+}
+.bi-arrow-right-circle {
+    width: 40px;
+    height:40px;
+    background-color:coral;
+}
+
+.order>div:nth-child(2)>span{
+    color: #111;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+
+table{
+    margin-bottom:16px;
+}
+
+td{
+    display: table-cell;
+    padding-bottom:16px;
+}
+
+tbody td{
+    color:#484848;
+    font-size: 14px;
+}
+
+tfoot>tr:first-child>td:first-child{
+  font-weight: 700;
+  color:#484848;
+  line-height: 1.571;
+  font-size: 14px;
+}
+tfoot>tr:first-child>td:nth-child(2){
+    color:#111;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 22px;
+}
+
+tfoot tr:not(:first-child){
+  color:rgb(126, 126, 126);
+  font-size: 14px;
+}
+
+
+/* vill lägga border övan"total pris" */
+tfoot {
+    border-top: #111;
+}
+
+ul {
+    list-style:none;
+    width:100%;
+}
+li i {
+    color: #484848;
+}
+li span{
+    text-decoration: underline;
+    font-weight: 400px;
+    color: #484848;
+    padding-left: 5px;
+}
+
+/* ============================= */
+/* section:first step */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-button {
+    display: flex;
+    align-items: flex-start;
+    }
+    
+.form-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3.5rem;
+    padding: 0 2rem;
+    width: 100%;
+    background: #0058a3;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 64px;
+    border-color: transparent;
+}
+.form-button:hover {
+    border-radius: 64px;
+    border-color: transparent;
+    transition-property: opacity,transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3.5rem;
+    padding: 0 2rem;
+    width: 100%;
+    background: #0270d1;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}

@@ -1,5 +1,12 @@
-@import "../css-product-details/components/site-header.css";
 @import "../css-product-details/components/hero.css";
+@import "../css-product-details/components/teaser.css";
+@import "../css/components/footer-icons.css";
+@import "../css/components/footer-links.css";
+@import "../css/components/site-header.css";
+@import "../css-checkout/components/checkout.css";
+@import "../css-checkout/components/mediaqueries.css";
+@import "../css-product-details/components/mediaqueries.css";
+
 
 
 * {

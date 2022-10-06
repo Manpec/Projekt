@@ -99,7 +99,8 @@ form > i:nth-child(2){
 
 .page-container{
     display: flex;
-     margin-left: 130px; 
+     margin-left: 80px; 
+     margin-right: 70px;
     }
     .main-nav{
         display: flex;
@@ -135,7 +136,7 @@ form > i:nth-child(2){
 
  .page-container2{
   display: flex;
-  padding: 0 30px;
+  margin-left: 60px;
   width: 90%;
 
 

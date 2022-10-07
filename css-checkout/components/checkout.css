@@ -1,4 +1,4 @@
-header {
+.checkout-header{
     margin-left: 60px;
 }
 
@@ -238,7 +238,7 @@ h3{
 /* ============================= */
 /* section:second-step */
 
-form{
+.second-step form{
    display: flex;
    flex-direction: column;    
 }

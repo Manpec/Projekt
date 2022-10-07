@@ -2,7 +2,8 @@
     header{
         margin:0px;
     }
-    
+
+
     .ikea-logo{
         display: flex;
         justify-content: left;
@@ -18,7 +19,7 @@
         position:static;
         margin-bottom: 100px;
     } 
-    
+
     
     .product-info{
         display: flex;
@@ -53,6 +54,7 @@
         margin:8px 0;
     }
     
+   
 
 
     .order>div>div:first-child {
@@ -85,7 +87,7 @@
     
     
     
-    
+   
     
     
     .policies {
@@ -94,3 +96,10 @@
     }
 
 } 
+
+@media(min-width:900px){
+
+    .teaser .container {
+        flex-wrap:nowrap;
+    }
+}

@@ -1,0 +1,101 @@
+@media(max-width:1200px){
+
+    .ikea-logo img{ 
+        width:75px;
+        height:30px;
+      } 
+      .page-container2{
+          display:flex;
+          border-bottom: 1px solid #dfdfdf; 
+          margin-bottom: 25px;
+      }
+      .page-container{
+          display:none;
+          
+      }
+     
+    .hero .grid-container{
+        
+    grid-template-rows:repeat(4, 300px);
+
+    }
+}
+
+@media(min-width:1200px){
+    .page-container2{
+        display:none;
+    }
+    .page-container{
+        display:flex;
+        border-bottom: 1px solid #dfdfdf; 
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:900px){
+
+
+
+    .hero .grid-container{
+       display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9,1fr);
+        gap: 15px;
+        grid-template-areas:
+        "img-1 "
+        "img-2 "
+        "img-3 "
+        "img-4 "
+        "img-5 "
+        "img-6 "
+        "img-7 "
+        "img-8 " ;
+
+    }
+   
+    .teaser > span{
+        margin-left: 30px;
+    }
+    .teaser .container {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: center;
+   }
+    
+    
+   
+  
+
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+     }
+     
+     .featured-links {
+        width:100%;
+     }
+     .accordion{
+         margin-left: 30px
+     }
+ 
+     .footer-links .accordion {
+         display: flex;
+         flex-direction: column;
+     }
+ 
+     .footer-utilities {
+         flex-direction: column;
+     }
+     .language a {
+         justify-content: left;
+     }
+ 
+     .policies {
+         display: block;
+        margin-left: 30px;
+     }
+     
+
+
+}
+

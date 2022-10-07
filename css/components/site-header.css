@@ -3,7 +3,7 @@
     flex-grow: 1;
        gap: 10px;
     list-style: none;
-    padding: 10px
+    padding: 10px 0 ;
 
   }
   
@@ -24,14 +24,15 @@
     color: white;
       }
       
-/* how to use position  */
+
 .header-search {
     display: flex;
     align-items: center;
+    margin: 10px 30px;
     position: sticky;
     top: 0;
     z-index: 1;
-  margin: 10px 30px;
+    background-color: white;
 }
   
 

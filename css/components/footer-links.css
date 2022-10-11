@@ -12,7 +12,7 @@ footer {
    
 }
 
-.featured-links {
+.featured-links  {
     width:20%;
     margin-left: 30px;
     margin-left:30px;
@@ -40,8 +40,8 @@ footer {
 }
 
 
-/* d-none d-md-flex gap-4 */
-.accordion{
+
+.accordion-list{
     display: flex;
     gap: 20px;
     flex-basis: 80%;
@@ -54,20 +54,42 @@ footer {
 
 
 
-footer .accordion a {
+footer .accordion-list a {
     color:#484848;
     font-size: 15px; 
     font-weight:lighter;
 
 }
 
-.accordion li {
+.accordion-list li {
     list-style: none;
     margin: 10px 0px;
 }
 
-.accordion h6 {
+.accordion-list h6 {
     margin:20px 0px;
     font-size: 18px;
 }
 
+.accordion-list ul {
+    padding: 0;
+}
+
+.accordion-body > ul {
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.accordion-body li>a {
+    display: block;
+    padding: 0.5rem 0;
+    color: #484848;
+    font-weight: 400;
+    font-size:14px;
+}
+
+.accordion-button {
+    font-weight: 700;
+}
+    

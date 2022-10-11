@@ -83,9 +83,7 @@
     .featured-links {
        width:100%;
     }
-    .accordion{
-        margin-left: 30px
-    }
+    
 
     .footer-links .accordion {
         display: flex;
@@ -104,6 +102,14 @@
        margin-left: 30px;
     }
     
+
+}
+
+@media(max-width:768px){
+
+     .accordion-list{
+        display: none;
+     }
 
 }
 

@@ -50,7 +50,6 @@
         "img-6 "
         "img-7 "
         "img-8 " ;
-
     }
    
     .teaser > span{
@@ -96,6 +95,14 @@
      }
      
 
+
+}
+
+@media(max-width:768px){
+
+    .accordion-list{
+       display: none;
+    }
 
 }
 

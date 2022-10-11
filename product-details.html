@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css-product-details/main.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <title>Product-details</title>
 </head>
 <body>
@@ -378,23 +380,29 @@
       
 
     </main>
-      <footer>
-          <div class="footer-links">
-            <div class="featured-links">
-                 <div>
-                   <h5>Gå med i IKEA Family</h5>
-                   <p>Ge dina idéer nytt liv med erbjudanden, inspiration och massor av aktiviteter i våra varuhus - helt kostnadsfritt.</p>
-                   <a href="#" class="footer-btn"><span>Bli medlem här</span></a>
-                 </div>
-                 <div>
-                   <h5>IKEA för företag</h5>
-                   <p>Våra företagsexperter hjälper till med flexibla, prisvärda och mer hållbara lösningar.</p>
-                   <a href="#" class="footer-btn"><span>IKEA för foretag</span></a>
-                 </div>   
+    <footer>
+      <div class="footer-links">
+        <div class="featured-links">
+             <div>
+               <h5>Gå med i IKEA Family</h5>
+               <p>Ge dina idéer nytt liv med erbjudanden, inspiration och massor av aktiviteter i våra varuhus - helt kostnadsfritt.</p>
+               <a href="#" class="footer-btn"><span>Bli medlem här</span></a>
              </div>
-             <div class="accordion">
-               <div>
-                 <h6>Ditt IKEA Family</h6>
+             <div>
+               <h5>IKEA för företag</h5>
+               <p>Våra företagsexperter hjälper till med flexibla, prisvärda och mer hållbara lösningar.</p>
+               <a href="#" class="footer-btn"><span>IKEA för foretag</span></a>
+             </div>   
+         </div>
+         <div class="accordion d-md-none" id="accordionExample">
+           <div class="accordion-item">
+             <h2 class="accordion-header" id="headingOne">
+               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 Ditt IKEA Family
+               </button>
+             </h2>
+             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
                  <ul>
                    <li>
                      <a href="#">Logga in</a>
@@ -407,8 +415,16 @@
                    </li>
                  </ul>
                </div>
-               <div>
-                 <h6>Handla på IKEA</h6>
+             </div>
+           </div>
+           <div class="accordion-item">
+             <h2 class="accordion-header" id="headingTwo">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 Handla på IKEA
+               </button>
+             </h2>
+             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
                  <ul>
                    <li>
                      <a href="#">Varuhus & öppettider</a>
@@ -427,8 +443,16 @@
                    </li>
                  </ul>
                </div>
-               <div>
-                 <h6>Kundservice</h6>
+             </div>
+           </div>
+           <div class="accordion-item">
+             <h2 class="accordion-header" id="headingThree">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 Kundservice
+               </button>
+             </h2>
+             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
                  <ul>
                    <li>
                      <a href="#">Kundservice</a>
@@ -447,97 +471,185 @@
                    </li>
                  </ul>
                </div>
-               <div>
-                 <h6>Det här är IKEA</h6>
+               </div>
+           </div>
+           <div class="accordion-item">
+             <h2 class="accordion-header" id="headingOne">
+               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 Den här är IKEA
+               </button>
+             </h2>
+             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
                  <ul>
                    <li>
                      <a href="#">Jobba på IKEA</a>
                    </li>
                    <li>
-                     <a href="#">Lorem, ipsum.</a>
+                     <a href="#">En mer hållbar vardag</a>
                    </li>
                    <li>
-                     <a href="#">Lorem, ipsum.</a>
+                     <a href="#">IKEA Museum</a>
                    </li>
                    <li>
-                     <a href="#">Lorem, ipsum.</a>
+                     <a href="#">Livet hemma</a>
                    </li>
                    <li>
-                     <a href="#">Lorem, ipsum.</a>
+                     <a href="#">Klimat och hållbarhet</a>
                    </li>
                  </ul>
                </div>
-             </div>
            </div>
-           <div class="footer-utilities">
-                 <div class="social-media">
-                       <ul>
-                         <li>
-                           <a href="#"><i class="bi bi-facebook"></i></a>
-                         </li>
-                         <li>
-                           <a href="#"><i class="bi bi-instagram"></i></a>
-                         </li>
-                         <li>
-                           <a href="#"><i class="bi bi-pinterest"></i></a>
-                         </li>
-                         <li>
-                           <a href="#"><i class="bi bi-youtube"></i></a>
-                         </li>
-                         <li>
-                           <a href="#"><i class="bi bi-twitter"></i></a>
-                         </li>
-                       </ul>                  
-                 </div>
-                 <div class="payment-option">
-                       <ul>
-                         <li>
-                           <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/visa.svg" alt="visa">
-                         </li>
-                         <li>
-                           <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/master-card.svg" alt="master-card">
-                         </li>
-                         <li>
-                           <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/american-express.svg" alt="american-express">
-                         </li>
-                         <li>
-                           <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/klarna.svg" alt="På IKEA kan du betala med Klarna">
-                         </li>
-                         <li>
-                           <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/swish.svg" alt="swish">
-                         </li>
-                       </ul>
-                 </div>
-                 <div class="language">
-                   <a href="#">
-                   
-                     <span><i class="bi bi-globe"></i> Ändra land</span>
-                   </a>
-                 </div>
-              
+             
            </div>
-           <div class="policies">
-             <div class="copy-right">
-               <small>&copy; Inter IKEA</small>
-             </div>
-             <div class="legal-links">
-               <ul>
-                 <li>
-                   <a href="#"><small>Integritetspolicy</small></a>
-                 </li>
-                 <li>
-                   <a href="#"><small> Cookiepolicy</small></a>
-                 </li>
-                 <li>
-                   <a href="#"><small>Ansvarfullt avslöjadepolicy</small></a>
-                 </li>
-                 <li>
-                   <a href="#"><small>Inställningar för Cookies</small></a>
-                 </li>
-               </ul>
-             </div>
+         </div>
+         <div class="accordion-list">
+           <div>
+             <h6>Ditt IKEA Family</h6>
+             <ul>
+               <li>
+                 <a href="#">Logga in</a>
+               </li>
+               <li>
+                 <a href="#">Min inkköplista</a>
+               </li>
+               <li>
+                 <a href="#">Följ min order</a>
+               </li>
+             </ul>
            </div>
-           
-      </footer>
+           <div>
+             <h6>Handla på IKEA</h6>
+             <ul>
+               <li>
+                 <a href="#">Varuhus & öppettider</a>
+               </li>
+               <li>
+                 <a href="#">Betalningsalternativ</a>
+               </li>
+               <li>
+                 <a href="#">Leveransalternativ</a>
+               </li>
+               <li>
+                 <a href="#">Personlig planering</a>
+               </li>
+               <li>
+                 <a href="#">Planeringsverktyg</a>
+               </li>
+             </ul>
+           </div>
+           <div>
+             <h6>Kundservice</h6>
+             <ul>
+               <li>
+                 <a href="#">Kundservice</a>
+               </li>
+               <li>
+                 <a href="#">Vanliga frågor</a>
+               </li>
+               <li>
+                 <a href="#">Servicetjänster</a>
+               </li>
+               <li>
+                 <a href="#">Retur & reklamation</a>
+               </li>
+               <li>
+                 <a href="#">Reservdelar</a>
+               </li>
+             </ul>
+           </div>
+           <div>
+             <h6>Det här är IKEA</h6>
+             <ul>
+               <li>
+                 <a href="#">Jobba på IKEA</a>
+               </li>
+               <li>
+                 <a href="#">En mer hållbar vardag</a>
+               </li>
+               <li>
+                 <a href="#">IKEA Museum</a>
+               </li>
+               <li>
+                 <a href="#">Livet hemma</a>
+               </li>
+               <li>
+                 <a href="#">Klimat och hållbarhet</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+       <div class="footer-utilities">
+             <div class="social-media">
+                   <ul>
+                     <li>
+                       <a href="#"><i class="bi bi-facebook"></i></a>
+                     </li>
+                     <li>
+                       <a href="#"><i class="bi bi-instagram"></i></a>
+                     </li>
+                     <li>
+                       <a href="#"><i class="bi bi-pinterest"></i></a>
+                     </li>
+                     <li>
+                       <a href="#"><i class="bi bi-youtube"></i></a>
+                     </li>
+                     <li>
+                       <a href="#"><i class="bi bi-twitter"></i></a>
+                     </li>
+                   </ul>                  
+             </div>
+             <div class="payment-option">
+                   <ul>
+                     <li>
+                       <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/visa.svg" alt="visa">
+                     </li>
+                     <li>
+                       <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/master-card.svg" alt="master-card">
+                     </li>
+                     <li>
+                       <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/american-express.svg" alt="american-express">
+                     </li>
+                     <li>
+                       <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/klarna.svg" alt="På IKEA kan du betala med Klarna">
+                     </li>
+                     <li>
+                       <img src="https://www.ikea.com/global/assets/logos/external-payment-providers/swish.svg" alt="swish">
+                     </li>
+                   </ul>
+             </div>
+             <div class="language">
+               <a href="#">
+               
+                 <span><i class="bi bi-globe"></i> Ändra land</span>
+               </a>
+             </div>
+          
+       </div>
+       <div class="policies">
+         <div class="copy-right">
+           <small>&copy; Inter IKEA</small>
+         </div>
+         <div class="legal-links">
+           <ul>
+             <li>
+               <a href="#"><small>Integritetspolicy</small></a>
+             </li>
+             <li>
+               <a href="#"><small> Cookiepolicy</small></a>
+             </li>
+             <li>
+               <a href="#"><small>Ansvarfullt avslöjadepolicy</small></a>
+             </li>
+             <li>
+               <a href="#"><small>Inställningar för Cookies</small></a>
+             </li>
+           </ul>
+         </div>
+       </div>
+       
+     </footer>
 </body>
 </html>
